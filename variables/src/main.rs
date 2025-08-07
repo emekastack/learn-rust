@@ -9,4 +9,13 @@ fn main() {
     }
 
     println!("The value of x is: {x}");
+
+    //Tuple
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+
+    let five_hundred = tup.0;
+
+    let (x, _, _) = tup;
+    println!("This is the value of x: {five_hundred}");
+    
 }
